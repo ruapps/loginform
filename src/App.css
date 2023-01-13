@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{ box-sizing: border-box; margin: 0; padding: 0;}
+a{text-decoration: none !important;}
+
+body{
+  font-family: Roboto;
+  padding: 0 20px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-logo { max-width: 198px; max-height: 198px; }
+.imgDiv p{font-size: 14px; color: #1A1A1A; font-weight: 500;}
+.bttn{
+  background: #fff;
+  border: none;
+  flex-basis: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9D9D9D;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bttn.activ{
+  color: #1A1A1A;
+  border-bottom: 2px solid #E70B89;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form input,
+form .Loginbtn{
+  font-size: 16px;
+  width: 280px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 7%;
+  border: none;
+  border: 1px solid;
+  color:  #1A1A1A;
 }
 
-.App-link {
-  color: #61dafb;
+.Loginbtn{   background: #E70B89; color: #fff !important; font-weight: 500;}
+
+form input:placeholder-shown{
+  font-size: 16px;
+  padding-left: 35px;
+  color:  #1A1A1A;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.soc_img img{ width: 50px; height: 50px; border-radius: 50%; border: 1px solid #E6E6E6;}
+.soc_img a:nth-child(2) img{ width: 50px; height: 50px; padding: 10px ;}
+
+.f_pas{ color: #E70B89; font-size: 14px;}
+.social p{ font-size: 12px !important; color: #1A1A1A;}
+.social p:first-child{ color: #9D9D9D; }
+.social p:last-child a{color: #E70B89}
