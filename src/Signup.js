@@ -15,9 +15,9 @@ const Signup = ()=>{
                     <div className="social my-4">
                             <p>or login with</p>
                             <div className="soc_img d-flex align-items-center justify-content-around px-5 ">
-                                <a href="#"><img src="./asset/google.png" alt=""  /></a>
-                                <a href="#"><img src="./asset/fb.png" alt=""  /></a>
-                                <a href="#"><img src="./asset/twitter.png" alt=""  /></a>
+                                <a href="#"><img src="/loginform/asset/google.png" alt=""  /></a>
+                                <a href="#"><img src="/loginform/asset/fb.png" alt=""  /></a>
+                                <a href="#"><img src="/loginform/asset/twitter.png" alt=""  /></a>
                             </div>
                     </div>
                </form>
